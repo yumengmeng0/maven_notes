@@ -84,7 +84,7 @@ maven是一个项目管理工具，在项目开发阶段对Java项目进行依�
         2.按层拆分，例如：持久层、业务层、表现层等  
     两种拆分方式都会提供一个父工程，将一些公共的代码和配置提取到父工程中进行统一管理和配置、版本锁定。
     
-![alt maven分模块构建工程](images\maven分模块构建工程.png "maven分模块构建工程")
+![alt maven分模块构建工程](images/maven分模块构建工程.png "maven分模块构建工程")
     
 ## 3.2 maven工程的继承
 父工程打包方式必须为pom
@@ -130,4 +130,4 @@ Maven中的库是个物理概念，存放各种依赖 Jar，而依赖是个逻�
     system
       系统依赖范围，使用 system 范围的依赖时必须通过 systemPath 元素显示地指定依赖文件的路径，不依赖 Maven 仓库解析，所以可能会造成建构的不可移植。
 
-![alt maven依赖](images\maven依赖.png "maven依赖")
+![alt maven依赖](images/maven依赖.png "maven依赖")
